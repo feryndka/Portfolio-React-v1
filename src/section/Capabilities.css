@@ -1,0 +1,54 @@
+#header1 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.headerP {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 25%;
+}
+
+#Capabilities {
+    padding-top: 20px;
+    height: 250px;
+    display: grid;
+    margin-bottom: 70px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 30px;
+}
+
+#Capabilities .content1, #Capabilities .content2, #Capabilities .content3 {
+    box-shadow: 5px 5px 0px 0px #e5e5e5;
+-webkit-box-shadow: 5px 5px 0px 0px #e5e5e5;
+-moz-box-shadow: 5px 5px 0px 0px #e5e5e5;
+    background-color: #f2f2f2;
+}
+
+#Capabilities .content1 {
+    grid-column: 2/4;
+}
+
+#Capabilities .content2 {
+    grid-column: 4/6;
+}
+
+#Capabilities .content3 {
+    grid-column: 6/8;
+}
+
+#Capabilities .content1 h1, #Capabilities .content2 h1, #Capabilities .content3 h1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#Capabilities .content1 p, #Capabilities .content2 p, #Capabilities .content3 p {
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}

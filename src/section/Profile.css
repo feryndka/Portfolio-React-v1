@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#profileHeader {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+#profileHeader p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#profile {
+    padding-top: 20px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.about {
+    grid-column: 3/6;
+    grid-row: 1/4;
+    margin: 0 40px;
+}
+
+.about h1 {
+    font-size: 35px;
+}
+
+.about p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pict {
+    grid-column: 6/8;
+    grid-row: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pict div {
+    background-color: #fdd460;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/40105adc52b65947bc24aded/fd.jpg);
+    background-size: cover;
+}
+
+.detail {
+    grid-column: 8/10;
+    grid-row: 1/4;
+    margin-left: 30px;
+}
+
+.detail h1 {
+    padding-bottom: 20px;
+}
+
+.detail b {
+    font-size: 20px;
+}
+
+.detail p {
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+}

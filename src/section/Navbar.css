@@ -1,0 +1,55 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#header ul {
+    list-style: none;
+    position:absolute;
+    flex-direction: column;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 16%;
+    height: 100vh;
+    justify-content: space-around;
+    z-index: -1;
+    transition: all 1s;
+}
+
+#header ul div {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+}
+
+#header ul.visible {
+    transform: translateX(-110%);
+}
+
+#header ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#header ul li a:hover, .icon:hover, #header ul div:hover {
+    color: orange;
+}
+
+.icon {
+    cursor: pointer;
+}
